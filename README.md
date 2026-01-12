@@ -20,7 +20,7 @@ Dart 3.10.1 to run the project.
 - Adopted Clean Architecture with clear separation between presentation, domain, and data layers
 
 - Designed the application with a feature-first modular structure for scalability and maintainability
-- Used Auto_route for app routing
+- Used [auto_route](https://pub.dev/packages/auto_route) for app routing
 
 ### Screenshots
 
