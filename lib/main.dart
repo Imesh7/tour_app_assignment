@@ -13,8 +13,7 @@ void main() {
 class MyApp extends StatelessWidget {
   MyApp({super.key});
   final _appRouter = AppRouter();
-
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
@@ -23,7 +22,6 @@ class MyApp extends StatelessWidget {
         designSize: const Size(375, 812),
         minTextAdapt: true,
         splitScreenMode: true,
-        // Use builder only if you need to use library outside ScreenUtilInit context
         builder: (_, child) {
           return MaterialApp.router(
             debugShowCheckedModeBanner: false,
