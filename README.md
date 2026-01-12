@@ -13,7 +13,7 @@ Dart 3.10.1 to run the project.
 
 ### What I have done
 
-- State management implemented using BLoC, ensuring unidirectional data flow
+- State management implemented using BLoC
 
 - Dependency injection handled via GetIt, with future extensibility using Injectable
 
